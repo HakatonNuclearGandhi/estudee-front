@@ -24,7 +24,7 @@ a {
 }
 
 .landing-image{
-  background-image: url('../../public/background/landing-background.png');
+  background-image: url('/background/landing-background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
