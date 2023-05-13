@@ -18,7 +18,7 @@ const LandingPage = () => (
         <Typography variant="h1">
           Організовуй свої завдання по дисциплінам з
         </Typography>
-        <Typography variant="h1" color="blue">
+        <Typography variant="h1" color="blue.100">
           eStudee
         </Typography>
       </Box>
