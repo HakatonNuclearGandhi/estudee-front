@@ -1,13 +1,17 @@
-import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { ThemeProvider } from "@mui/system";
 import { AppProps } from "next/app";
+
+import { theme } from "@/styles/theme/theme";
 
 import "@/styles/globals.css";
 
 const queryClient = new QueryClient();
 const App = ({ Component, pageProps }: AppProps) => (
   <QueryClientProvider client={queryClient}>
-    <Component {...pageProps} />
+    <ThemeProvider theme={theme}>
+      <Component {...pageProps} />
+    </ThemeProvider>
   </QueryClientProvider>
 );
 
