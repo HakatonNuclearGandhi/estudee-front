@@ -1,9 +1,9 @@
-const estudee = () => {
+const Estudee = () => {
   return (
     <div>
-      <h1>Estudee</h1>
+      <h1>Hello world!</h1>
     </div>
   );
 };
 
-export default estudee;
+export default Estudee;
