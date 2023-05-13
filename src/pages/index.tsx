@@ -1,9 +1,5 @@
-const Estudee = () => {
-  return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
-  );
-};
+import LandingPage from "@/common/pages/LandingPage";
+
+const Estudee = () => <LandingPage />;
 
 export default Estudee;
