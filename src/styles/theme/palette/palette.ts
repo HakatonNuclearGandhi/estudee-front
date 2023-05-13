@@ -1,0 +1,19 @@
+const palette = {
+  darkBlue: {
+    100: "#00004d",
+    200: "#002366",
+    300: "#1034A6",
+  },
+  blue: {
+    100: "#192bc2",
+    200: "#0047ab",
+    300: "#0f52ba",
+  },
+  lightBlue: {
+    100: "#1E90FF",
+    200: "#0197f6",
+    300: "#73c2fb",
+  },
+};
+
+export default palette;
