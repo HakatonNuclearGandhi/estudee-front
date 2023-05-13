@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import { ThemeProvider } from "@mui/system";
+import { ThemeProvider } from "@mui/material/styles";
 import { AppProps } from "next/app";
 
 import { theme } from "@/styles/theme/theme";

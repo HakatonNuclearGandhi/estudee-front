@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/system";
+import { createTheme } from "@mui/material/styles";
 
 import customPalette from "./palette";
 import customTypography from "./typography";
