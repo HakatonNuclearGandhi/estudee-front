@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="fix: added new fixes">
-      <change afterPath="$PROJECT_DIR$/public/background/landing-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logos/logo_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logos/logo_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logos/text_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logos/text_logo.svg" afterDir="false" />
+    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="feature: added LandingPage, HyperLink, NavBar components">
       <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/HyperLink.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/index.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/LandingPage.styles.ts" afterDir="false" />
@@ -18,17 +13,8 @@
       <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/NavBar.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/index.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/theme/theme.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/typography.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +181,7 @@
       <workItem from="1684000793517" duration="47000" />
       <workItem from="1684000877856" duration="41000" />
       <workItem from="1684000939340" duration="30000" />
-      <workItem from="1684000979827" duration="1575000" />
+      <workItem from="1684000979827" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="feature: added initial structure">
       <created>1683982713119</created>
@@ -218,7 +204,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683985800838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="utils: changed files">
+      <created>1684002778787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002778787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature: added photos">
+      <created>1684002818946</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002818946</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature: added custom typography">
+      <created>1684002851475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002851475</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +248,10 @@
     <MESSAGE value="fix: fixed dependencies" />
     <MESSAGE value="fix: fixed pre-commit" />
     <MESSAGE value="fix: added new fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: added new fixes" />
+    <MESSAGE value="utils: changed files" />
+    <MESSAGE value="feature: added photos" />
+    <MESSAGE value="feature: added custom typography" />
+    <MESSAGE value="feature: added LandingPage, HyperLink, NavBar components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: added LandingPage, HyperLink, NavBar components" />
   </component>
 </project>
