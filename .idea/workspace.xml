@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="fix: fixed pre-commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/estudee-front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estudee-front.iml" afterDir="false" />
+    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="fix: added new fixes">
+      <change afterPath="$PROJECT_DIR$/public/background/landing-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/logo_blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/text_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/text_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/HyperLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/LandingPage.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/LandingPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/NavBar.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/typography.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,19 +38,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="com.haulmont.rcb.palette" />
         <option value="com.haulmont.rcb.previews" />
         <option value="com.haulmont.rcb.index" />
         <option value="com.haulmont.rcb.useInitial" />
         <option value="com.haulmont.rcb.README" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="setup" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,25 +86,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "development",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/d_butov/estudee-front/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;page/landing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/d_butov/estudee-front/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -97,7 +119,7 @@
       <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -130,9 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.typecheck" />
         <item itemvalue="npm.prepare" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +179,23 @@
       <workItem from="1683984126226" duration="25000" />
       <workItem from="1683984159788" duration="96000" />
       <workItem from="1683984278768" duration="299000" />
-      <workItem from="1683984585068" duration="1068000" />
+      <workItem from="1683984585068" duration="1110000" />
+      <workItem from="1683985830386" duration="531000" />
+      <workItem from="1683988002167" duration="609000" />
+      <workItem from="1683992024350" duration="634000" />
+      <workItem from="1683994910336" duration="326000" />
+      <workItem from="1683995245957" duration="66000" />
+      <workItem from="1683995340765" duration="42000" />
+      <workItem from="1683995408418" duration="59000" />
+      <workItem from="1683995489234" duration="33000" />
+      <workItem from="1683995530524" duration="580000" />
+      <workItem from="1683996134869" duration="1181000" />
+      <workItem from="1683997333240" duration="75000" />
+      <workItem from="1683997434591" duration="3229000" />
+      <workItem from="1684000793517" duration="47000" />
+      <workItem from="1684000877856" duration="41000" />
+      <workItem from="1684000939340" duration="30000" />
+      <workItem from="1684000979827" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="feature: added initial structure">
       <created>1683982713119</created>
@@ -173,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683984539919</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: added new fixes">
+      <created>1683985800837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683985800838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +240,7 @@
     <MESSAGE value="feature: added initial structure" />
     <MESSAGE value="fix: fixed dependencies" />
     <MESSAGE value="fix: fixed pre-commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed pre-commit" />
+    <MESSAGE value="fix: added new fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: added new fixes" />
   </component>
 </project>
