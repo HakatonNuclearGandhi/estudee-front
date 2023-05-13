@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="feature: added LandingPage, HyperLink, NavBar components">
-      <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/HyperLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/hyperlink/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/LandingPage.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/LandingPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/NavBar.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/common/NavBar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/LandingPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/theme/typography/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+    <list default="true" id="25d60af1-4748-456c-a6a3-840ba9bde068" name="Changes" comment="fix: changed workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +64,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;page/landing&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/d_butov/estudee-front/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "page/landing",
+    "last_opened_file_path": "/Users/d_butov/estudee-front",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/d_butov/estudee-front/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -181,7 +174,8 @@
       <workItem from="1684000793517" duration="47000" />
       <workItem from="1684000877856" duration="41000" />
       <workItem from="1684000939340" duration="30000" />
-      <workItem from="1684000979827" duration="1900000" />
+      <workItem from="1684000979827" duration="2214000" />
+      <workItem from="1684003390341" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="feature: added initial structure">
       <created>1683982713119</created>
@@ -225,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684002851475</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feature: added LandingPage, HyperLink, NavBar components">
+      <created>1684002936510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002936510</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: changed workspace.xml">
+      <created>1684003200333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684003200333</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +260,7 @@
     <MESSAGE value="feature: added photos" />
     <MESSAGE value="feature: added custom typography" />
     <MESSAGE value="feature: added LandingPage, HyperLink, NavBar components" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: added LandingPage, HyperLink, NavBar components" />
+    <MESSAGE value="fix: changed workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: changed workspace.xml" />
   </component>
 </project>
