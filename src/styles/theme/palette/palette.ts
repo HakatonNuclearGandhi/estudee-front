@@ -8,6 +8,7 @@ const palette = {
     100: "#192bc2",
     200: "#0047ab",
     300: "#0f52ba",
+    400: "#004DFF",
   },
   lightBlue: {
     100: "#1E90FF",
