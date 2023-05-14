@@ -5,5 +5,5 @@ export const scoreBlock: SxProps<Theme> = {
 };
 
 export const card: SxProps<Theme> = {
-  maxWidth: "280px",
+  width: "280px",
 };
