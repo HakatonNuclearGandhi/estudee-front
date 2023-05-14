@@ -10,6 +10,7 @@ export interface ButtonProps {
   isDisabled?: boolean;
   link?: string;
   onClick?: () => void;
+  type?: "submit";
 }
 
 const Button: FC<ButtonProps> = ({
@@ -19,6 +20,7 @@ const Button: FC<ButtonProps> = ({
   isDisabled = false,
   link,
   onClick,
+  type,
 }) => (
   <ButtonMUI
     disableRipple
@@ -26,6 +28,7 @@ const Button: FC<ButtonProps> = ({
     variant={variant}
     href={link}
     onClick={onClick}
+    type={type}
     sx={button(size, variant)}
   >
     <Typography variant="body2Medium">{text}</Typography>

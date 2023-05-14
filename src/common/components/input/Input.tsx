@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { ChangeEvent, FC } from "react";
 import { TextField } from "@mui/material";
 
 import { input } from "./Input.styles";
@@ -10,6 +10,8 @@ export interface InputProps {
   isDisabled?: boolean;
   isRequired?: boolean;
   type?: "password" | "email" | "text";
+  value?: unknown;
+  onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 const Input: FC<InputProps> = ({
   label,
@@ -18,6 +20,8 @@ const Input: FC<InputProps> = ({
   isDisabled = false,
   isRequired = false,
   type = "text",
+  value,
+  onChange,
 }) => (
   <TextField
     label={label}
@@ -25,6 +29,8 @@ const Input: FC<InputProps> = ({
     disabled={isDisabled}
     required={isRequired}
     type={type}
+    value={value}
+    onChange={onChange}
     sx={input(size)}
   />
 );

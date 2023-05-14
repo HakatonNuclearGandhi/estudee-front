@@ -6,10 +6,10 @@ export const input = (size: "medium" | "large"): SxProps<Theme> => {
     "& .MuiFormLabel-root.Mui-focused": {
       color: "blue.400",
     },
-    height: size === "medium" ? "35px" : "49px",
-    width: size === "medium" ? "300px" : "390px",
+    height: size === "medium" ? "35px" : "52px",
+    width: size === "medium" ? "300px" : "480px",
     "& .MuiOutlinedInput-root": {
-      borderRadius: "4px",
+      borderRadius: "8px",
       "&:hover fieldset, &.Mui-focused fieldset": {
         borderColor: "blue.400",
       },

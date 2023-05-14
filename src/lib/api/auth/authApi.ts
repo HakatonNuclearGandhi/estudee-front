@@ -3,9 +3,9 @@ import { Token } from "@/lib/api/auth/dto/Token";
 import { client } from "@/lib/api/instance";
 
 export class AuthAPI {
-  static async loginUser(username: string, password: string): Promise<Token> {
+  static async loginUser(email: string, password: string): Promise<Token> {
     const { data } = await client.post("/Authenticate/login", {
-      username,
+      email,
       password,
     });
     return data;
