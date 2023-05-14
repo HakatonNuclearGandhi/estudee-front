@@ -1,7 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
 
 import LineGraph from "@/common/pages/dashboard-page/common/line-graph";
-import TaskBlock from "@/common/pages/dashboard-page/common/task-block";
+
+import TaskBlock from "../../components/task-block";
 
 import { container, wrapper } from "./Dashboard.styles";
 

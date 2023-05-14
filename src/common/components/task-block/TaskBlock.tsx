@@ -5,7 +5,7 @@ import {
 } from "@mui/icons-material";
 import { Box, IconButton, Typography } from "@mui/material";
 
-import Task from "@/common/pages/dashboard-page/common/task-block/task";
+import Task from "@/common/components/task-block/task";
 
 import { wrapper } from "./TaskBlock.styles";
 
