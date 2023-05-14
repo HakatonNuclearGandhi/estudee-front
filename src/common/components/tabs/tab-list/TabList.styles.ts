@@ -5,7 +5,7 @@ export const tabList: SxProps<Theme> = {
   "& .MuiTabs-indicator": {
     display: "none",
   },
-  ".Mui-selected": {
+  "& button.Mui-selected": {
     color: "blue.400",
   },
 };
