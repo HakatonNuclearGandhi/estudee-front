@@ -1,19 +1,44 @@
-import { Container } from "@mui/material";
+import { useQuery } from "react-query";
+import { Alert, AlertTitle, CircularProgress, Container } from "@mui/material";
 
 import SubjectCard from "@/common/pages/subject-page/common/subject-card";
+import { SubjectAPI } from "@/lib/api/subject/Subject";
+import { parseScore } from "@/utils";
 
 import { container } from "./SubjectPage.styles";
 
-const SubjectPage = () => (
-  <Container sx={container}>
-    <SubjectCard
-      name="Математичний аналіз 1. Інтегральні вичіслення"
-      score="12/50"
-      description="Предмет для закриття. Потрібно здати екзамен до 20.12.2021."
-    />
+const SubjectPage = () => {
+  const { isLoading, isError, data } = useQuery(
+    ["subjects"],
+    () => SubjectAPI.getSubjects(),
+    {
+      retry: false,
+      refetchOnWindowFocus: false,
+    }
+  );
 
-    {/*#TODO: Add system if you don't have subject. U have a button to add subject*/}
-  </Container>
-);
+  if (isLoading) return <CircularProgress />;
+
+  if (isError)
+    return (
+      <Alert severity="error">
+        <AlertTitle>Error</AlertTitle>
+        This is an error alert — <strong>check it out!</strong>
+      </Alert>
+    );
+
+  return (
+    <Container sx={container}>
+      {data?.map((subject) => (
+        <SubjectCard
+          key={subject.subjectId}
+          name={subject.name}
+          score={parseScore(subject.currentScore, subject.maxScore)}
+          description={subject.description}
+        />
+      ))}
+    </Container>
+  );
+};
 
 export default SubjectPage;

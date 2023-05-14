@@ -17,7 +17,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const token = await AuthAPI.loginUser(email, password);
-      console.log("Token:", token);
+      document.cookie = token.token;
       const returnMain = () => {
         void router.push("/main");
       };

@@ -14,7 +14,7 @@ export const tabContainer: SxProps<Theme> = {
   display: "flex",
   flexDirection: "column",
   marginTop: "50px",
-  gap: "20px",
+  gap: "10px",
 };
 
 export const buttonContainer: SxProps<Theme> = {
