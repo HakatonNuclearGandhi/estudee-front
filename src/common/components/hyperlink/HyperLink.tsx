@@ -9,7 +9,7 @@ export interface HyperLinkProps {
 
 const HyperLink: FC<HyperLinkProps> = ({ source, text }) => (
   <Link href={source}>
-    <Typography variant="button">{text}</Typography>
+    <Typography variant="body2Medium">{text}</Typography>
   </Link>
 );
 

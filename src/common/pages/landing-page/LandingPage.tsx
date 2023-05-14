@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-import HyperLink from "@/common/components/hyperlink";
+import Button from "@/common/components/button";
 
 import NavBar from "./common/NavBar";
 import {
@@ -30,7 +30,7 @@ const LandingPage = () => (
           З викорисатанням нашого сервісу такого більше не повториться
         </Typography>
         <Box sx={buttonContainer}>
-          <HyperLink source="./" text="Регестрація" />
+          <Button link="./1" text="Реєстрація" variant="text" size="small" />
         </Box>
       </Box>
     </Box>

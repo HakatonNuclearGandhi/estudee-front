@@ -8,6 +8,8 @@ export interface ButtonProps {
   variant?: "contained" | "outlined" | "text";
   size?: "small" | "large";
   isDisabled?: boolean;
+  link?: string;
+  onClick?: () => void;
 }
 
 const Button: FC<ButtonProps> = ({
@@ -15,14 +17,18 @@ const Button: FC<ButtonProps> = ({
   variant = "contained",
   size = "large",
   isDisabled = false,
+  link,
+  onClick,
 }) => (
   <ButtonMUI
     disableRipple
     disabled={isDisabled}
     variant={variant}
+    href={link}
+    onClick={onClick}
     sx={button(size, variant)}
   >
-    <Typography>{text}</Typography>
+    <Typography variant="body2Medium">{text}</Typography>
   </ButtonMUI>
 );
 
