@@ -9,5 +9,6 @@ export const wrapper: SxProps<Theme> = {
 
 export const linkWrapper: SxProps<Theme> = {
   display: "flex",
-  gap: "1rem",
+  alignItems: "center",
+  gap: "3rem",
 };
