@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
 
+import Button from "@/common/components/button";
 import HyperLink from "@/common/components/hyperlink";
 
 import TextLogo from "../../../../../../public/logos/text_logo.svg";
@@ -11,8 +12,8 @@ const NavBar = () => (
   <Box sx={wrapper}>
     <Image src={TextLogo} alt={"Text Logo"} />
     <Box sx={linkWrapper}>
-      <HyperLink source="./" text="Вхід" />
-      <HyperLink source="./" text="Регестрація" />
+      <HyperLink source="./1" text="Вхід" />
+      <Button link="./1" text="Реєстрація" size="small" />
     </Box>
   </Box>
 );

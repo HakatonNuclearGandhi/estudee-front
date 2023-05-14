@@ -5,7 +5,6 @@ export const button = (
   variant: "contained" | "outlined" | "text"
 ): SxProps<Theme> => ({
   borderRadius: "4px",
-  fontSize: "18px",
   textTransform: "none",
   minHeight: "fit-content",
   minWidth: "fit-content",
