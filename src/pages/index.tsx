@@ -1,4 +1,4 @@
-import LandingPage from "@/common/pages/LandingPage";
+import LandingPage from "../common/pages/landing-page";
 
 const Estudee = () => <LandingPage />;
 
