@@ -4,6 +4,7 @@ import { TabPanel } from "@/common/components/tabs";
 import InformationBar from "@/common/layout/common/information-bar";
 import DashboardPage from "@/common/pages/dashboard-page";
 import SubjectPage from "@/common/pages/subject-page";
+import TaskPage from "@/common/pages/task-page";
 import useTab from "@/hooks/useTab";
 
 import { wrapper } from "./Layout.styles";
@@ -22,7 +23,7 @@ const Layout = () => {
           <SubjectPage />
         </TabPanel>
         <TabPanel value={tabValue} index={2}>
-          3
+          <TaskPage />
         </TabPanel>
       </Box>
     </Box>
