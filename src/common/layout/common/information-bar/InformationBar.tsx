@@ -30,9 +30,9 @@ const InformationBar: FC<InformationBarProps> = ({ tabCount, setTabCount }) => (
     <Image src={TextLogo} alt={"Text Logo"} />
     <Box sx={tabContainer}>
       <TabList value={tabCount} onChange={setTabCount}>
-        <Tab text="Дошка" icon={<ClipboardDocumentCheckIcon />} value={1} />
-        <Tab text="Предмети" icon={<BriefcaseIcon />} value={2} />
-        <Tab text="Завдання" icon={<ClipboardDocumentCheckIcon />} value={3} />
+        <Tab text="Дошка" icon={<ClipboardDocumentCheckIcon />} value={0} />
+        <Tab text="Предмети" icon={<BriefcaseIcon />} value={1} />
+        <Tab text="Завдання" icon={<ClipboardDocumentCheckIcon />} value={2} />
       </TabList>
     </Box>
     <Box sx={buttonContainer}>
