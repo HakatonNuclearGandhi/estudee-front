@@ -1,8 +1,8 @@
 import { Box, Typography } from "@mui/material";
 
 import HyperLink from "@/common/components/hyperlink";
-import NavBar from "@/common/pages/LandingPage/common/NavBar";
 
+import NavBar from "./common/NavBar";
 import {
   buttonContainer,
   mainContent,
