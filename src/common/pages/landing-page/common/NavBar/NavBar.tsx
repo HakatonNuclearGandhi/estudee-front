@@ -12,8 +12,8 @@ const NavBar = () => (
   <Box sx={wrapper}>
     <Image src={TextLogo} alt={"Text Logo"} />
     <Box sx={linkWrapper}>
-      <HyperLink source="./1" text="Вхід" />
-      <Button link="./1" text="Реєстрація" size="small" />
+      <HyperLink source="/login" text="Вхід" />
+      <Button link="/registration" text="Реєстрація" size="small" />
     </Box>
   </Box>
 );

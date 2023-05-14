@@ -38,7 +38,7 @@ const InformationBar: FC<InformationBarProps> = ({ tabCount, setTabCount }) => (
       <Button text="Додати таск" size="small" variant={"text"} />
     </Box>
     <Box sx={buttonContainer}>
-      <Button text="Вийти" size="small" variant={"outlined"} />
+      <Button link="./" text="Вийти" size="small" variant={"outlined"} />
     </Box>
   </Box>
 );
