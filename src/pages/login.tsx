@@ -1,4 +1,4 @@
-import LoginPage from "@/common/pages/login-page";
+import LoginPage from "@/common/pages/auth/login-page";
 
 const Login = () => <LoginPage />;
 

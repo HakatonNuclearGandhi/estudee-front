@@ -30,7 +30,12 @@ const LandingPage = () => (
           З викорисатанням нашого сервісу такого більше не повториться
         </Typography>
         <Box sx={buttonContainer}>
-          <Button link="./1" text="Реєстрація" variant="text" size="small" />
+          <Button
+            link="./registration"
+            text="Реєстрація"
+            variant="text"
+            size="small"
+          />
         </Box>
       </Box>
     </Box>
