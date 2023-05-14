@@ -1,4 +1,5 @@
 import { FC, ReactNode } from "react";
+import { Box } from "@mui/system";
 
 export interface TabPanelProps {
   value: number;
@@ -6,10 +7,12 @@ export interface TabPanelProps {
   children: ReactNode;
 }
 
+import { wrapper } from "./TabPanel.styles";
+
 const TabPanel: FC<TabPanelProps> = ({ value, index, children }) => (
-  <div role="tabpanel" hidden={value !== index}>
+  <Box role="tabpanel" hidden={value !== index} sx={wrapper}>
     {value === index && children}
-  </div>
+  </Box>
 );
 
 export default TabPanel;

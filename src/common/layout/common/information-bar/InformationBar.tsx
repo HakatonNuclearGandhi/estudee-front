@@ -1,8 +1,9 @@
 import { FC, SyntheticEvent } from "react";
 import {
-  BriefcaseIcon,
-  ClipboardDocumentCheckIcon,
-} from "@heroicons/react/24/outline";
+  FormatListNumberedOutlined,
+  GridView,
+  WorkOutline,
+} from "@mui/icons-material";
 import { Box } from "@mui/system";
 import Image from "next/image";
 
@@ -30,13 +31,14 @@ const InformationBar: FC<InformationBarProps> = ({ tabCount, setTabCount }) => (
     <Image src={TextLogo} alt={"Text Logo"} />
     <Box sx={tabContainer}>
       <TabList value={tabCount} onChange={setTabCount}>
-        <Tab text="Дошка" icon={<ClipboardDocumentCheckIcon />} value={0} />
-        <Tab text="Предмети" icon={<BriefcaseIcon />} value={1} />
-        <Tab text="Завдання" icon={<ClipboardDocumentCheckIcon />} value={2} />
+        <Tab text="Дошка" icon={<GridView />} value={0} />
+        <Tab text="Предмети" icon={<WorkOutline />} value={1} />
+        <Tab text="Завдання" icon={<FormatListNumberedOutlined />} value={2} />
       </TabList>
+      <Button text="Додати таск" size="small" variant={"text"} />
     </Box>
     <Box sx={buttonContainer}>
-      <Button text="Logout" size="small" variant={"outlined"} />
+      <Button text="Вийти" size="small" variant={"outlined"} />
     </Box>
   </Box>
 );
