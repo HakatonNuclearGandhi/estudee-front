@@ -7,7 +7,7 @@ import HyperLink from "@/common/components/hyperlink";
 import Input from "@/common/components/input";
 import { AuthAPI } from "@/lib/api/auth/authApi";
 
-import * as styles from "../AuthPages";
+import * as styles from "../AuthPages.styles";
 
 const LoginPage = () => {
   const router = useRouter();
