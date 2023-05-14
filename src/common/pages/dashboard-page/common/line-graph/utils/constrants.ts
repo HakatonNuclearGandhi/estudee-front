@@ -1,7 +1,7 @@
 const ColorMap: Record<string, string> = {
-  good: "success.main",
-  average: "warning.main",
-  bad: "error.main",
+  good: "success.light",
+  average: "warning.light",
+  bad: "error.light",
 };
 
 const colorInfo = (value: number) => {
