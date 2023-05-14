@@ -7,11 +7,14 @@ export const wrapper: SxProps<Theme> = {
   minHeight: "100vh",
   width: "fit-content",
   padding: "2vh 3vw 5vh 3vw",
-  borderRight: "1px solid #e0e0e0",
+  backgroundColor: "lightBlue.400",
 };
 
 export const tabContainer: SxProps<Theme> = {
+  display: "flex",
+  flexDirection: "column",
   marginTop: "50px",
+  gap: "20px",
 };
 
 export const buttonContainer: SxProps<Theme> = {
