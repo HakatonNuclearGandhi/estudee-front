@@ -11,6 +11,8 @@ const SubjectPage = () => (
       score="12/50"
       description="Предмет для закриття. Потрібно здати екзамен до 20.12.2021."
     />
+
+    {/*#TODO: Add system if you don't have subject. U have a button to add subject*/}
   </Container>
 );
 
